@@ -1,8 +1,6 @@
 import argparse
 import rcfile
 
-DEFAULT_SERVER = 'https://list.tilman.ninja'
-DEFAULT_LIST   = 'Demo'
 
 parser=argparse.ArgumentParser()
 subParsers=parser.add_subparsers(dest="command")
